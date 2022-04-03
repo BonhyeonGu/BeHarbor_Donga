@@ -1,0 +1,9 @@
+version: "3"
+services:
+ donga__data_structure:
+  tty: true
+  build: .
+  volumes:
+   - . :/root/code
+  environment: 
+   -   :TZ=Asia/Seoul
